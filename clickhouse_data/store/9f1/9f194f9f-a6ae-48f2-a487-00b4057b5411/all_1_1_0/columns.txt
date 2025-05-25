@@ -1,0 +1,5 @@
+columns format version: 1
+3 columns:
+`product_id` Int32
+`total_quantity_sold` Int64
+`total_revenue` Decimal(38, 18)

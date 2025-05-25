@@ -1,0 +1,4 @@
+columns format version: 1
+2 columns:
+`supplier_id` Int32
+`total_revenue` Decimal(38, 18)

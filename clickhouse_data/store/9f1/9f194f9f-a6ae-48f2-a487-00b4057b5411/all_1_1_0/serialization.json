@@ -1,0 +1,1 @@
+{"columns":[{"kind":"Default","name":"product_id","num_defaults":0,"num_rows":10},{"kind":"Default","name":"total_quantity_sold","num_defaults":0,"num_rows":10},{"kind":"Default","name":"total_revenue","num_defaults":0,"num_rows":10}],"version":0}

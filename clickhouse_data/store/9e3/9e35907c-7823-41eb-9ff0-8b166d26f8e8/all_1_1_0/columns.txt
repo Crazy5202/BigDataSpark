@@ -1,0 +1,9 @@
+columns format version: 1
+7 columns:
+`year` Int32
+`month` Int32
+`monthly_revenue` Decimal(38, 18)
+`order_count` Int64
+`total_items_sold` Int64
+`avg_order_value` Decimal(38, 18)
+`unique_customers` Int64

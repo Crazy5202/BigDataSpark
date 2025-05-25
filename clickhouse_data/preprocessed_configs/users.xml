@@ -1,0 +1,58 @@
+<!-- This file was generated automatically.
+     Do not edit it: it is likely to be discarded and generated again before it's read next time.
+     Files used to generate this file:
+       /etc/clickhouse-server/users.xml
+       /etc/clickhouse-server/users.d/default-user.xml      -->
+
+<yandex>
+    <profiles>
+        <default>
+            <max_memory_usage>10000000000</max_memory_usage>
+            <use_uncompressed_cache>0</use_uncompressed_cache>
+            <load_balancing>random</load_balancing>
+        </default>
+    </profiles>
+
+    <quotas>
+        <default>
+            <interval>
+                <duration>3600</duration>
+                <queries>0</queries>
+                <errors>0</errors>
+                <result_rows>0</result_rows>
+                <read_rows>0</read_rows>
+                <execution_time>0</execution_time>
+            </interval>
+        </default>
+    </quotas>
+
+    <users>
+        <!-- Default user without password -->
+        <default>
+            <password/>
+            <profile>default</profile>
+            <quota>default</quota>
+        
+      <!-- User default is available only locally -->
+      <networks>
+        <ip>::1</ip>
+        <ip>127.0.0.1</ip>
+      </networks>
+    </default>
+
+        <!-- Custom user with password -->
+        <Maxim>
+            <password>12345</password>
+            <profile>default</profile>
+            <quota>default</quota>
+            <networks>
+                <ip>::/0</ip> <!-- Allow connections from any IP -->
+            </networks>
+        </Maxim>
+    
+    
+  </users>
+
+  <!-- Docs: <https://clickhouse.com/docs/operations/settings/settings_users/> -->
+  
+</yandex>

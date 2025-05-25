@@ -1,0 +1,5 @@
+columns format version: 1
+3 columns:
+`year_month` String
+`avg_order_size` Float64
+`avg_order_price` Decimal(38, 22)

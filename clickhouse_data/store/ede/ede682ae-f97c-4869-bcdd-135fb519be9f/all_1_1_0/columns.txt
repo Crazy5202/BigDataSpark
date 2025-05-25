@@ -1,0 +1,4 @@
+columns format version: 1
+2 columns:
+`customer_id` Int32
+`total_spent` Decimal(38, 18)

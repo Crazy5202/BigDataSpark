@@ -1,0 +1,6 @@
+columns format version: 1
+4 columns:
+`supplier_country` String
+`total_revenue` Decimal(38, 18)
+`order_count` Int64
+`total_items_sold` Int64

@@ -1,0 +1,5 @@
+columns format version: 1
+3 columns:
+`product_category` String
+`pet_category` String
+`total_revenue` Decimal(38, 18)

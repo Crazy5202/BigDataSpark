@@ -1,0 +1,5 @@
+columns format version: 1
+3 columns:
+`product_id` Int32
+`product_rating` Decimal(38, 18)
+`product_reviews` Int32
