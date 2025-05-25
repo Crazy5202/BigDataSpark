@@ -1,4 +1,0 @@
-columns format version: 1
-2 columns:
-`product_id` Int32
-`product_rating` Decimal(38, 18)

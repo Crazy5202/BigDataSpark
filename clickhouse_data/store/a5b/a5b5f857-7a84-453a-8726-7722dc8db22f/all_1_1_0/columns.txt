@@ -1,4 +1,0 @@
-columns format version: 1
-2 columns:
-`supplier_id` Int32
-`avg_product_price` Decimal(38, 22)

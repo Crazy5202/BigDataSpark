@@ -1,5 +1,0 @@
-columns format version: 1
-3 columns:
-`customer_id` Int32
-`avg_price` Decimal(38, 18)
-`avg_items_count` Float64
